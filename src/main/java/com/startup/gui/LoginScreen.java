@@ -34,7 +34,7 @@ public class LoginScreen {
         glassPanel.setOpaque(false);
         glassPanel.setBorder(BorderFactory.createEmptyBorder(30, 40, 30, 40));
 
-        JLabel titleLabel = new JLabel("Mind Mates", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Starthub", SwingConstants.CENTER);
         titleLabel.setFont(new Font("Outfit", Font.BOLD, 36));
         titleLabel.setForeground(Color.WHITE);
         

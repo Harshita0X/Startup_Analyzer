@@ -1,8 +1,8 @@
-# Mind Mates - AI Startup Strategy Lab 🚀
+# Starthub - AI Startup Strategy Lab 🚀
 
-**Mind Mates** is a high-fidelity, AI-powered desktop application designed to help visionaries and entrepreneurs transform raw ideas into comprehensive, investor-ready startup strategies. Featuring a premium, flashy UI with glassmorphism effects, it provides deep analytical insights including SWOT analysis, audience archetypes, and feasibility calculations.
+**Starthub** is a high-fidelity, AI-powered desktop application designed to help visionaries and entrepreneurs transform raw ideas into comprehensive, investor-ready startup strategies. Featuring a premium, flashy UI with glassmorphism effects, it provides deep analytical insights including SWOT analysis, audience archetypes, and feasibility calculations.
 
-![Mind Mates UI](https://img.shields.io/badge/UI-Glassmorphism-blueviolet)
+![Starthub UI](https://img.shields.io/badge/UI-Glassmorphism-blueviolet)
 ![Java](https://img.shields.io/badge/Language-Java_17-orange)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
 ![FlatLaf](https://img.shields.io/badge/Theme-FlatLaf_Dark-darkgreen)

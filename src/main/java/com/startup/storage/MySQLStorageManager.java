@@ -12,10 +12,10 @@ public class MySQLStorageManager implements StorageManager {
     private static final String URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_NAME = "startup_analyzer";
     private static final String USER = "root";
-    private static final String PASS = "harshita";
+    private static final String PASS = ""; // Default XAMPP MariaDB has no password
 
     public MySQLStorageManager() {
-        initializeDatabase();
+        new Thread(this::initializeDatabase).start();
     }
 
     private Connection getConnection() throws SQLException {
@@ -23,9 +23,11 @@ public class MySQLStorageManager implements StorageManager {
     }
 
     private void initializeDatabase() {
+        System.out.println("[DB] Connecting to host: " + URL);
         try (Connection rootConn = DriverManager.getConnection(URL, USER, PASS);
              Statement stmt = rootConn.createStatement()) {
 
+            System.out.println("[DB] Root connection established. Ensuring database exists...");
             // Create Database
             stmt.executeUpdate("CREATE DATABASE IF NOT EXISTS " + DB_NAME);
 

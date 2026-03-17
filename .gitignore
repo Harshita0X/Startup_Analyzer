@@ -1,0 +1,8 @@
+target/
+*.log
+data/
+dependency-reduced-pom.xml
+error_log.txt
+.vscode/
+build.log
+run.log

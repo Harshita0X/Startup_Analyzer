@@ -1,6 +1,6 @@
 # Starthub - AI Startup Strategy Lab 🚀
 
-**Starthub** is a high-fidelity, AI-powered desktop application designed to help visionaries and entrepreneurs transform raw ideas into comprehensive, investor-ready startup strategies. Featuring a premium, flashy UI with glassmorphism effects, it provides deep analytical insights including SWOT analysis, audience archetypes, and feasibility calculations.
+**Starthub** is a high-fidelity, AI-powered desktop application designed to help visionaries and entrepreneurs transform raw ideas into comprehensive, investor-ready startup strategies. Featuring a premium Project which provides deep analytical insights including SWOT analysis, audience archetypes, and feasibility calculations.
 
 ![Starthub UI](https://img.shields.io/badge/UI-Glassmorphism-blueviolet)
 ![Java](https://img.shields.io/badge/Language-Java_17-orange)
@@ -31,15 +31,6 @@ Stay ahead of the curve with a dynamic dashboard showing trending opportunities 
 All your ideas and reports are securely stored in a MySQL database. Save, revisist, or discard strategies as your vision evolves.
 
 ---
-
-## 🎨 Design Philosophy
-The application follows a **"Fedric AI"** inspired aesthetic:
-- **Glassmorphism**: Semi-transparent panels with interactive hover effects.
-- **Premium Typography**: Integration of the "Outfit" font family for a modern feel.
-- **Vibrant Visuals**: Custom-generated abstract gradients and high-fidelity trading card thumbnails.
-
----
-
 ## 🛠️ Tech Stack
 - **Core**: Java 17
 - **GUI Framework**: Java Swing + [FlatLaf](https://github.com/JFormDesigner/FlatLaf)
